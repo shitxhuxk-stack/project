@@ -1,0 +1,49 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    min-height: calc(90vh - 100px);
+}
+.main{
+    background-image: url('./assets/BG.png');
+    background-size: cover;
+}
+.logo{
+    height: 100px;
+}
+.logo > img{
+    max-height: 100%;
+    width: auto;
+}
+.form-wrapper{
+    min-height: 60vh;
+}
+.title{
+    font-weight: 800;
+}
+.utils-text{
+    font-weight: 800;
+    color: black;
+}
+.text-black{
+    color: black !important;
+}
+.footer-bg{
+    background-image: url("./assets/Lower_pattern.png");
+    height: 20px;
+}
+.text-yellow{
+    color: #ffc539 !important;
+    font-weight: 800;
+}
+.bg-nesa-blue{
+    background-color: #0061ad!important;
+}
+#result{
+    width: 900px;
+    padding: 30px;
+}
+.table{
+    font-size: 13px;
+}
+
